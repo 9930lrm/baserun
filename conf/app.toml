@@ -1,0 +1,23 @@
+title = "app conf "
+
+[database]
+server = "10.10.20.249"
+port = "10100"
+connection_max = "1000"
+dbname = "default"
+dbuser = "root"
+dbpasswd = "oamysqldev"
+charset = "utf8"
+
+[redis]
+server = "10.10.20.249"
+port = "10151"
+paaswd = "123456"
+
+[admin]
+admin = "root"
+passwd = "oamysqldev"
+
+[logs]
+logname="bassrun01log"
+logpath="D:\\00.OneDrve\\OneDrive\\goProject\\01.base\\baserun\\bassrun01log.log"
