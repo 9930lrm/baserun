@@ -24,6 +24,3 @@ func redisTest() {
 	str, _ := redis.GetValue(result, err)
 	logs.LogInfo(str)
 }
-
-type aa struct {
-}
